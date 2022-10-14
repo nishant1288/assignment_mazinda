@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Pacifico&family=Poppins:wght@300&display=swap'); 
+
+/* Mobile Design */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .fa-arrow-left,
+    .fa-cart-shopping {
+        font-size: 28px;
+        margin-top: 5px;
+    }
+
+    .search {
+        width: 250px;
+        height: 35px;
+    }
+
+    ::placeholder {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 23px;
+        position: relative;
+    }
+
+    .mobile-slider {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-less-than,
+    .fa-greater-than {
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 4px;
+        margin-right: -8px;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .mobile-pic {
+        width: 225px;
+        margin-left: 18px;
+    }
+
+    .fa-heart,
+    .fa-share-nodes {
+        font-size: 22px;
+    }
+
+    .fa-heart {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .dot {
+
+        height: 0px;
+        color: rgb(236, 230, 230);
+        width: 20%;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 15px;
+
+    }
+
+    .price {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .price h3 {
+        display: inline;
+    }
+
+    .price-bold {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .Description,
+    .Information,
+    .Reviews {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Reviews p {
+        color: blue;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        bottom: 5px;
+        background-color: white;
+    }
+
+    .buyItem,
+    .cart {
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: medium;
+    }
+
+    .cart {
+        background: none;
+        border-color: #ff9900;
+        color: #ff9900;
+    }
+
+    .buyItem {
+        background-color: #ff9900;
+        border-style: none;
+        color: white;
+    }
+
+    .mazinda {
+        display: none;
+    }
+}
+
+/* For Desktop */
+
+@media only screen and (min-width: 770px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .navbar h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .search {
+        width: 500px;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    ::placeholder {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .fa-cart-shopping {
+        font-size: 35px;
+
+    }
+
+    .fa-arrow-down,
+    .fa-cart-shopping {
+        cursor: pointer;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 23px;
+        position: relative;
+        width: 45%;
+        margin: auto;
+    }
+
+    .fa-heart,
+    .fa-share-nodes {
+        font-size: 35px;
+    }
+
+    .div-heart {
+        position: relative;
+    }
+
+    .mobile-pic {
+        width: 400px;
+    }
+
+    .dot {
+
+        height: 0px;
+        color: rgb(197, 188, 188);
+        width: 6%;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 15px;
+
+    }
+
+    .fa-heart {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        bottom: 5px;
+        background-color: white;
+    }
+
+    .navbar .fa-arrow-left {
+        display: none;
+    }
+
+    .mobile-price-description {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .price-description {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Information,
+    .Reviews {
+        font-family: 'Poppins', sans-serif;
+        width: 70%;
+        margin: auto;
+    }
+
+    .customers {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Reviews p {
+        color: blue;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        bottom: 20px;
+        background-color: white;
+    }
+
+    .buyItem,
+    .cart {
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: medium;
+        cursor: pointer;
+    }
+
+    .cart {
+        background: none;
+        border-color: #ff9900;
+        color: #ff9900;
+    }
+
+    .buyItem {
+        background-color: #ff9900;
+        border-style: none;
+        color: white;
+    }
+
+    .mobile-slider {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-less-than,
+    .fa-greater-than {
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: grey;
+        cursor: pointer;
+    }
+
+
+    .dot {
+        display: none;
+    }
+
+}

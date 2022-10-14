@@ -1,0 +1,4 @@
+The webpage is responsive for both desktop screen and mobile screen as well.
+It also has a functionality of sliding of the phone images.
+You can also click on heart and make it your favourite and also you can click on share icon which takes you to whatsapp web.
+Also there are little modifications to make the web page look more attractive.

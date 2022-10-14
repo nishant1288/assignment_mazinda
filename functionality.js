@@ -12,8 +12,8 @@ greaterThan.addEventListener('click', function () {  // To see the next image
     }
 
     var newImg = document.createElement('img');
-    newImg.src = `${images[currentImage]}`
-    newImg.className = "mobile-pic"
+    newImg.src = `${images[currentImage]}`;
+    newImg.className = "mobile-pic";
     getDiv.appendChild(newImg);
 
     if (getDiv.children.length > 1) {
@@ -28,8 +28,8 @@ lessThan.addEventListener('click', function () {   // To see the previous image
     }
 
     var new2Img = document.createElement('img');
-    new2Img.src = `${images[currentImage]}`
-    new2Img.className = "mobile-pic"
+    new2Img.src = `${images[currentImage]`;
+    new2Img.className = "mobile-pic";
     getDiv.appendChild(new2Img);
 
     if (getDiv.children.length > 1) {
